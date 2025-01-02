@@ -27,8 +27,19 @@ The next flip-flop need only “recognize” that the first flip-flop’s Q outp
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
 **Procedure**
+Open Quartus Prime software.
 
-/* write all the steps invloved */
+Create a new project and include a Verilog file for the counters.
+
+Write the Verilog code for both counters.
+
+Compile the project to check for errors.
+
+Simulate the design to observe the waveform outputs.
+
+Compare the outputs against the truth table to verify functionality.
+
+Generate the RTL schematics and timing diagrams.
 
 **PROGRAM**
 
@@ -53,3 +64,9 @@ RegisterNumber : 24900483
 ![Screenshot 2024-12-17 181627](https://github.com/user-attachments/assets/cdd6e47d-a50d-4f6e-898a-c8e2a39a92fc)
 
 **RESULTS**
+
+
+
+
+
+Both the 4-bit ripple counter and the 4-bit synchronous up counter were successfully implemented in Verilog, and their functionality was validated using simulation results.
